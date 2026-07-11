@@ -16,8 +16,7 @@ explainability, to a genuine business decision layer.
 ## Notebook
 
 `notebooks/churn_project_walkthrough.ipynb` — a single narrated notebook covering all 6 levels
-in one place, already executed (real outputs, real SHAP chart, real numbers baked in). This is
-the best entry point if you just want to read/present the project rather than run scripts.
+in one place, already executed (real outputs, real SHAP chart, real numbers baked in).
 
 ## Levels
 
@@ -40,10 +39,7 @@ is randomly assigned (like an RCT), and the treatment effect is a known
 function I planted (varies by contract type and internet service, plus
 noise). This lets the project both fit an uplift model *and* verify it
 recovers the true planted effect — a validation step real-world uplift
-projects usually can't do. This is standard practice for demonstrating the
-method without access to real experimental data, and worth being upfront
-about if it comes up in an interview — it demonstrates you understand the
-method end-to-end, not that you have real experimental results.
+projects usually can't do.
 
 ## Key results
 
